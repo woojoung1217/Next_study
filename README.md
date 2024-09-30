@@ -18,27 +18,6 @@
 # 2. 개발환경 구성
 ## 2.1 수동 구성
 ### package.json 파일 작성
-* 생성
-  ```sh
-  cd workspace
-  mkdir 01.manual
-  cd 01.manual
-  npm init -y
-  ```
-
-* 실행 스크립트 작성
-  ```json
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  ```
-  - dev: 개발 서버 실행
-  - build: 프로덕션 빌드
-  - start: 프로덕션 서버 실행
-  - lint: ESLint를 이용한 코드 스타일 검사
 
 ### Node 패키지 설치
 ```sh
